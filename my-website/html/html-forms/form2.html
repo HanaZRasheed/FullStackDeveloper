@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form 2</title>
+</head>
+
+<body>
+    <form action="">
+        <fieldset>
+            <legend> Personal Details</legend>
+            <label for="Salutation"> Salutation</label>
+            <select name="Salutation" id="Salutation" multiple>
+                <optgroup label="group A">
+                    <option value="None" selected disabled> --None--</option>
+                    <option value="1">One </option>
+                    <option value="2">Two </option>
+                </optgroup>
+                <optgroup label="group B">
+                    <option value="3"> Three</option>
+                    <option value="4">Four </option>
+                </optgroup>
+            </select>
+            <br><br>
+            <label for="first-name"> First Name</label>
+            <input type="text" name="first-name" id="first-name" required>
+            <br><br>
+            <label for="last-name"> Last Name</label>
+            <input type="text" name="last-name" id="last-name" required>
+
+            <br><br>
+            <label for="gender"> Gender</label>
+            <input type="radio" id="gender" name="gender" value="male"> Male
+            <input type="radio" id="gender" name="gender" value="female"> Female
+            <br><br>
+            <label for="email"> Email </label>
+            <input type="email" name="email" id="email">
+            <br><br>
+            <label for="dateOfBirth"> Date of Birth </label>
+            <input type="date" name="DoB" id="dateOfBirth">
+            <br><br>
+            <label for="address"> Address</label>
+            <textarea name="Address" id="address" cols="30" rows="10" placeholder="text"> </textarea>
+            <br> <br>
+            <label for="values"> Values </label>
+            <!-- <input list="values" name="values">
+            <datalist id="values">
+                <option value="Chrome">
+                <option value="Internet Explorer">
+                <option value="Firefox">
+
+            </datalist>
+            <br> <br>
+
+            <label for="number"> Number</label>
+            <input type="number" min="1" max="10" step="1" id="number" name="num">
+
+            <br><br> -->
+            <label for="to-do-list"> To do List</label>
+            <input type="checkbox" value="task1" name="task" id="to-do-list"> description 1
+            <input type="checkbox" value="task2" name="task" id="to-do-list"> description 2
+            <input type="checkbox" value="task3" name="task" id="to-do-list"> description 3
+            <input type="submit">
+
+        </fieldset>
+    </form>
+
+</body>
+
+</html>

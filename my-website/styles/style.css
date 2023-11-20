@@ -1,0 +1,21 @@
+@import url(stylesheet.css);
+
+:root {
+    --blue: #4068e0;
+}
+
+div {
+    color: var(--blue);
+    background-color: bisque;
+
+}
+
+
+
+.redParagraphs {
+    color: red;
+}
+
+.blueParagraphs {
+    color: blue;
+}

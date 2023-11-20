@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List</title>
+    <style>
+        ul {
+            font-size: 20px;
+            list-style-type: square;
+        }
+
+        ol {
+            list-style-type: upper-roman;
+        }
+
+        div {
+            background-color: blue;
+            color: aliceblue;
+        }
+
+        a {
+            color: white;
+        }
+
+        table,
+        th,
+        td {
+            border: 2px solid;
+            border-collapse: collapse;
+            /* border-spacing: 12px; */
+            caption-side: top;
+            width: 80%;
+        }
+
+        input[type=text] {
+            accent-color: blue;
+            padding: 5px;
+            width: 50%;
+            border-radius: 5px;
+        }
+
+        input[type=text]:focus {
+            background-color: darkgray;
+            caret-color: brown;
+        }
+
+        #center {
+            margin: auto;
+            background-color: cadetblue;
+            border: 5px solid black;
+            width: 500px;
+            margin-top: 10px;
+        }
+
+        a:hover {
+            font-size: 2em;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <ul>
+            <li> item 1</li>
+            <li> item 2</li>
+            <li> item 3</li>
+        </ul>
+
+        <ol>
+            <li>item 1</li>
+            <li>item 2</li>
+            <li>item 3</li>
+        </ol>
+
+        <a href="#">link 1</a>
+        <a href="#"> link 2</a>
+    </div>
+
+    <table>
+        <tr>
+            <th>no.</th>
+            <th>name</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Ahmad</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Ali</td>
+        </tr>
+        <caption> table caption</caption>
+    </table>
+    <br>
+    <input type="text" name="username">
+    <div id="center">
+        Centered
+    </div>
+
+    <a href="#"> Link 1</a>
+
+</body>
+
+</html>
